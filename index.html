@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ErvraTech — CIM (SaaS)</title>
+  <meta name="description" content="CIM is a SaaS platform providing algorithmic analysis and advanced modeling services via API and subscription." />
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; color: #111; background: #fff; }
+    .wrap { max-width: 920px; margin: 0 auto; padding: 48px 20px; }
+    header { margin-bottom: 28px; }
+    .badge { display: inline-block; padding: 6px 10px; border: 1px solid #ddd; border-radius: 999px; font-size: 12px; }
+    h1 { margin: 12px 0 8px; font-size: 34px; letter-spacing: -0.5px; }
+    p { line-height: 1.55; font-size: 16px; margin: 10px 0; color: #222; }
+    .grid { display: grid; grid-template-columns: 1fr; gap: 16px; margin-top: 24px; }
+    .card { border: 1px solid #eee; border-radius: 14px; padding: 18px; background: #fafafa; }
+    h2 { font-size: 18px; margin: 0 0 10px; }
+    ul { margin: 10px 0 0; padding-left: 18px; }
+    li { margin: 6px 0; }
+    .muted { color: #555; font-size: 14px; }
+    footer { margin-top: 30px; padding-top: 18px; border-top: 1px solid #eee; }
+    a { color: inherit; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="badge">ErvraTech</span>
+      <h1>CIM — Cloud Intelligence Model</h1>
+      <p>
+        <strong>CIM</strong> is a SaaS platform providing algorithmic analysis and advanced modeling services,
+        accessible via <strong>API</strong> and <strong>subscription</strong>.
+      </p>
+      <p class="muted">
+        Stripe compliance page — public website describing the offered service.
+      </p>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>What we provide</h2>
+        <ul>
+          <li>Secure API access (key-based authentication)</li>
+          <li>Algorithmic analysis & modeling services</li>
+          <li>Subscription-based access (monthly / yearly)</li>
+          <li>Technical support by email</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Contact</h2>
+        <p>
+          Email: <a href="mailto:contact@ervratech.com">contact@ervratech.com</a><br />
+          (If you don’t have a domain yet, replace with your Gmail for now.)
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Legal notice</h2>
+        <p>
+          Publisher: Esteban Rivera-Ramirez<br />
+          Activity: SaaS software development and operation<br />
+          Country: France
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>FR — Présentation</h2>
+        <p>
+          <strong>CIM</strong> est une plateforme SaaS d’analyse algorithmique et de modélisation avancée,
+          accessible via <strong>API</strong> et <strong>abonnement</strong>.
+        </p>
+        <ul>
+          <li>Accès API sécurisé (clé d’accès)</li>
+          <li>Analyses et modélisation</li>
+          <li>Accès par abonnement (mensuel / annuel)</li>
+          <li>Support technique par email</li>
+        </ul>
+      </section>
+    </div>
+
+    <footer class="muted">
+      © <span id="y"></span> ErvraTech — CIM. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
